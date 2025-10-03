@@ -1,0 +1,13 @@
+input()
+print("Hello, nice to meet you. Uhh..Do you mind asking your name?")
+name=input()
+print("So",name,". How are you?")
+feel=input()
+print(feel,"? I see. So let me introduce myself im xyz and im here to waste your time by talking this meaningless talk.")
+print(" Please share your Credit Card no. to continue this conversation")
+
+x=input()
+if x.isdigit():
+    print("... did you literally give me yor credit card no?")
+else:
+    print("ok im not stupid")
