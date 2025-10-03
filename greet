@@ -23,7 +23,7 @@ print("I can calculate numbers, do you want that?")
 print("Y / N")
 choice=input()
 
-if (choice=="Y" or "y"):
+if choice == "Y" or choice == "y":
     print("Enter 1st NO.")
     num1=float(input())
     print("Enter 2nd NO.")
@@ -45,4 +45,64 @@ if (choice=="Y" or "y"):
         print("Cant follow simple instructions huh?")
 else:
     print("Alright! SO now what?")
+
+print("Do you want to play a quiz?")
+print("Y / N")
+choice=input()
+
+if choice == "Y" or choice == "y":
+    print("So i'll ask you few questions and you can give your answer by choosing the correct option number")
+    input()
+    print("")
+    print("ONLY select option letter A/B/C/D for answer")
+    input()
+    print("1. Which planet is known as the Red Planet?")
+    print("A) Venus")
+    print("B) Mars")
+    print("C) Jupiter")
+    print("D) Mercury)")
+    ans=input()
+    if (ans =="B" or ans=="b"):
+            print("Correct")
+    else:
+            print("Wrong answer dumbass")
+            print("")
+            
+    print("")
+    print("2. Who wrote the play Romeo and Juliet?")
+    print("A) Charles Dickens")
+    print("B) William Shakespeare")
+    print("C) Mark Twain")
+    print("D) Oscar Wilde")
+    ans=input()
+    if (ans =="B" or ans=="b"):
+            print("Correct")
+    else:
+            print("Wrong answer again.LMAO youre such an idiot")
+    print("")
+    print("3. What is the largest ocean in the world?")
+    print("A) Indian Ocean")
+    print("B) Arctic Ocean")
+    print("C) Pacific Ocean")
+    print("D) Atlantic Ocean")
+    ans=input()
+    if (ans =="C" or ans=="c"):
+            print("Correct")
+    else:
+            print(name," Are you dumber than a kindergartener?")
+    print("")
+    print("4. How many continents are there on Earth?")
+    print("A) 5")
+    print("B) 6")
+    print("C) 7")
+    print("D) 8")
+    ans=input()
+    if (ans =="C" or ans=="c"):
+            print("Correct")
+    else:
+            print(name," You need to go back to school.")
+    
+else:
+    print("NO? What do you want to do then?")
+    
 
