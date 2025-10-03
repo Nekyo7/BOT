@@ -1,5 +1,9 @@
 input()
-print("Hello, nice to meet you. Uhh..Do you mind asking your name?")
+print("Hello, nice to meet you.")
+
+print("So Uhh..Do you mind telling your name?")
+
+
 name=input()
 print("So",name,". How are you?")
 feel=input()
@@ -11,3 +15,34 @@ if x.isdigit():
     print("... did you literally give me yor credit card no?")
 else:
     print("ok im not stupid")
+    
+print("------------------------------------------")
+print("Ok now. So do you need any help???")
+print("")
+print("I can calculate numbers, do you want that?")
+print("Y / N")
+choice=input()
+
+if (choice=="Y" or "y"):
+    print("Enter 1st NO.")
+    num1=float(input())
+    print("Enter 2nd NO.")
+    num2=float(input())
+    print("Choose an operation (+,-,/,*):")
+    op=input()
+    if (op=="+"):
+        print(num1 + num2)
+    elif (op=="-"):
+        print(num1 - num2)
+    elif (op=="/"):
+        if num2 != 0:
+            result = num1 / num2
+        else:
+            print("Error: Cannot divide by zero!")
+    elif (op=="*"):
+        print(num1 * num2)
+    else:
+        print("Cant follow simple instructions huh?")
+else:
+    print("Alright! SO now what?")
+
